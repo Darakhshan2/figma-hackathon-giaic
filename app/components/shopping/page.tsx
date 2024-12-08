@@ -1,5 +1,7 @@
 import React from 'react'
 import Header from '../header/page'
+import Image from 'next/image'
+
 
 export default function Shoping() {
   return (
@@ -20,7 +22,7 @@ export default function Shoping() {
         {/* Product 1 */}
         <div className="flex items-center justify-between py-4">
           <div className="flex items-center gap-4">
-            <img
+            <Image
               src="/Product Image.png"
               alt="Product 1"
               className="w-20 h-20 sm:w-28 sm:h-28 transition-transform duration-300 ease-in-out hover:scale-105"
@@ -39,7 +41,7 @@ export default function Shoping() {
         {/* Product 2 */}
         <div className="flex items-center justify-between py-4">
           <div className="flex items-center gap-4">
-            <img
+            <Image
               src="/Product Image 2.png"
               alt="Product 2"
               className="w-20 h-20 sm:w-28 sm:h-28 transition-transform duration-300 ease-in-out hover:scale-105"

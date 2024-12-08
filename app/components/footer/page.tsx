@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import React from 'react';
-import { FaLinkedin, FaInstagram, FaFacebookSquare, FaTwitter, FaPinterest } from "react-icons/fa";
+import {  FaInstagram, FaFacebookSquare, FaTwitter,  } from "react-icons/fa";
 import { IoLogoSkype } from "react-icons/io";
 
 const Footer = () => {

@@ -1,9 +1,11 @@
+
+// @typescript-eslint/no-unused-expressions
 import HeaderTop from "../aboutHeader/page";
 import { CiCreditCard1 } from "react-icons/ci";
 import { PiFlowerTulipLight } from "react-icons/pi";
 import { CiDeliveryTruck } from "react-icons/ci";
 import { CiCircleCheck } from "react-icons/ci";
-Link
+
 
 
 import Image from "next/image";
@@ -102,7 +104,7 @@ export default function About() {
   {/* Text Section */}
   <div className="w-full lg:w-[850px] h-[555px] lg:h-[555px] bg-purple-200 flex flex-col justify-center p-6 lg:p-[84px]">
     <h1 className="text-xl lg:text-2xl leading-relaxed mb-6">
-      Our service isn't just personal, it's actually <br className="hidden lg:block" />
+      Our service isnt just personal, its actually <br className="hidden lg:block" />
       hyper personally exquisite
     </h1>
 
@@ -151,7 +153,7 @@ export default function About() {
             <CiCreditCard1 className="mx-auto text-4xl" />
             <h2 className="text-lg font-semibold">Unbeatable prices</h2>
             <p className="text-sm text-gray-600">
-              For our materials and quality, you won't find better prices
+              For our materials and quality, you wont find better prices
               anywhere
             </p>
           </div>

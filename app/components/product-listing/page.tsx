@@ -179,7 +179,7 @@ export default function Productlisting() {
             <CiCreditCard1 className="mx-auto text-4xl" />
             <h2 className="text-lg font-semibold">Unbeatable prices</h2>
             <p className="text-sm text-gray-600">
-              For our materials and quality, you won't find better prices
+              For our materials and quality, you wont find better prices
               anywhere
             </p>
           </div>

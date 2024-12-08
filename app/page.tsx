@@ -3,7 +3,6 @@ import { CiDeliveryTruck } from "react-icons/ci";
 import { CiCircleCheck } from "react-icons/ci";
 import { CiCreditCard1 } from "react-icons/ci";
 import { PiFlowerTulipLight } from "react-icons/pi";
-import HeaderTop from "./components/aboutHeader/page";
 import Navbar from "./components/header/page";
 
 export default function Home() {
@@ -66,7 +65,7 @@ export default function Home() {
               <CiCreditCard1 className="mx-auto text-4xl" />
               <h2 className="text-lg font-semibold">Unbeatable prices</h2>
               <p className="text-sm text-gray-600">
-                For our materials and quality, you won't find better prices
+                For our materials and quality, you wont find better prices
                 anywhere
               </p>
             </div>
