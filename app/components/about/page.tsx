@@ -14,39 +14,7 @@ export default function About() {
   return (
     <>
     <HeaderTop/>
- 
-    <nav className="text-blue-950 bg-gray-300 h-[40px]">
-    <ul className="flex flex-col mb-2 pt-3 h-[30px] sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-6 text-gray-700 text-sm sm:text-base">
-  <li className="cursor-pointer hover:text-black">
-    <Link href="/" className="focus:outline-none focus:text-black">
-      Home
-    </Link>
-  </li>
-  <li className="cursor-pointer hover:text-black">
-    <Link href="/components/about" className="focus:outline-none focus:text-black">
-      About
-    </Link>
-  </li>
-  <li className="cursor-pointer hover:text-black">
-    <Link href="/components/allProducts" className="focus:outline-none focus:text-black">
-      All Products
-    </Link>
-  </li>
-  <li className="cursor-pointer hover:text-black">
-    <Link href="/components/product-listing" className="focus:outline-none focus:text-black">
-      Product Listing
-    </Link>
-  </li>
-  <li className="cursor-pointer hover:text-black">
-    <Link href="/components/shopping" className="focus:outline-none focus:text-black">
-      Shopping
-    </Link>
-  </li>
-
-</ul>
-</nav>
-
-
+    
 <div className="w-full max-w-[1440px] mx-auto px-4">
   {/* Top Section */}
   <div className="flex flex-col md:flex-row justify-between items-start md:items-center h-auto md:h-[277px] gap-6 md:gap-0 md:px-[128px]">
