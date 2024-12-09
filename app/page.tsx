@@ -178,7 +178,7 @@ export default function Home() {
             </div>
 
             {/* Second Chair */}
-            <div className="p-2 space-y-4 mt-12">
+            <div className="mt-12 p-2 space-y-2 min-w-mt-[16px] sm:mt-16 md:mt-4 m lg:mt-0">
               <Image
                 src="/Photo.png"
                 width={265}
