@@ -24,6 +24,8 @@ export default function Shoping() {
           <div className="flex items-center gap-4">
             <Image
               src="/Product Image.png"
+              width={20}
+              height={20}
               alt="Product 1"
               className="w-20 h-20 sm:w-28 sm:h-28 transition-transform duration-300 ease-in-out hover:scale-105"
             />
@@ -42,6 +44,8 @@ export default function Shoping() {
         <div className="flex items-center justify-between py-4">
           <div className="flex items-center gap-4">
             <Image
+              width={20}
+              height={20}
               src="/Product Image 2.png"
               alt="Product 2"
               className="w-20 h-20 sm:w-28 sm:h-28 transition-transform duration-300 ease-in-out hover:scale-105"

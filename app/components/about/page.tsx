@@ -1,20 +1,14 @@
-
 // @typescript-eslint/no-unused-expressions
-import HeaderTop from "../aboutHeader/page";
 import { CiCreditCard1 } from "react-icons/ci";
 import { PiFlowerTulipLight } from "react-icons/pi";
 import { CiDeliveryTruck } from "react-icons/ci";
 import { CiCircleCheck } from "react-icons/ci";
-
-
-
+import Navbar from "../header/page";
 import Image from "next/image";
-import Link from "next/link";
 export default function About() {
   return (
     <>
-    <HeaderTop/>
-    
+     <Navbar/>
 <div className="w-full max-w-[1440px] mx-auto px-4">
   {/* Top Section */}
   <div className="flex flex-col md:flex-row justify-between items-start md:items-center h-auto md:h-[277px] gap-6 md:gap-0 md:px-[128px]">
