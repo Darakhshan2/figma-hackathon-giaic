@@ -152,7 +152,7 @@ export default function Home() {
           </h2>
           <div className="flex flex-wrap p-2 gap-2 items-start">
             {/* Sofa Product */}
-            <div className=" h-[410px] ">
+            <div className=" h-[410px]  p-2 space-y-2 ">
               <Image
                 src="/sofa.png"
                 alt="Poplar suede sofa"
@@ -165,7 +165,7 @@ export default function Home() {
             </div>
 
             {/* First Chair */}
-            <div className=" h-[410px]  min-w-mt-[14px] sm:mt-12 lg:mt-0 ">
+            <div className=" h-[410px] mt-12 p-2 space-y-2 min-w-mt-[16px] sm:mt-16 md:mt-4 m lg:mt-0 ">
               <Image
                 src="/Parent.png"
                 alt="Chair"
@@ -178,19 +178,17 @@ export default function Home() {
             </div>
 
             {/* Second Chair */}
-            <div className=" h-[410px] lg:mt-0  min-w-mt-[14px] sm:mt-12">
+            <div className="p-2 space-y-4 mt-12">
               <Image
-                src="/Parent.png"
-                alt="Chair"
-                width={180}
-                height={440}
-                className="w-full h-full object-cover"
+                src="/Photo.png"
+                width={265}
+                height={375}
+                alt="Lucy Lamp"
+                className="w-full h-auto"
               />
-              <p className="mt-2 font-medium">The Poplar Chair</p>
-              <p className="text-gray-600">£125</p>
+              <p>The Lucy Lamp</p>
+              <p>£335</p>
             </div>
-          </div>
-
          
   {/* Centered Button */}
   <div className="text-center mt-20">
@@ -263,7 +261,7 @@ export default function Home() {
 </div>
 
       </div>
-    
+    </div>
     </>
   );
 }
