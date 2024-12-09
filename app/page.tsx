@@ -178,20 +178,19 @@ export default function Home() {
             </div>
 
             {/* Second Chair */}
-            <div className="mt-12 p-2 space-y-2 min-w-mt-[16px] sm:mt-16 md:mt-4 m lg:mt-0">
+            <div className=" h-[410px] mt-12 p-2 space-y-2 min-w-mt-[16px] sm:mt-16 md:mt-4 m lg:mt-0 ">
               <Image
                 src="/Photo.png"
-                width={265}
-                height={375}
-                alt="Lucy Lamp"
-                className="w-full h-auto"
+                alt="Chair"
+                width={180}
+                height={440}
+                className="w-full h-full object-cover"
               />
-              <p>The Lucy Lamp</p>
-              <p>£335</p>
+              <p className="mt-2 font-medium">The Lamp</p>
+              <p className="text-gray-600">£125</p>
             </div>
-         
   {/* Centered Button */}
-  <div className="text-center mt-20">
+  <div className="text-center sm:ml-[30%]  lg:ml-[50%] sm:mt-auto md:mt-auto mt-20 lg:mt-20">
     <button className="px-6 py-2 bg-gray-400 text-white hover:bg-gray-600">
       View Collection
     </button>
@@ -205,8 +204,8 @@ export default function Home() {
       <h1 className="text-xl sm:text-2xl tracking-wide">
         Join the club and get the benefits
       </h1>
-      <h2 className="mt-4 text-sm sm:text-base">
-        Sign up for our newsletter and receive exclusive offers on new
+      <h2 className="mt-4 text-sm sm:text-base md:w-auto sm:w-auto w-auto">
+        Sign up for our newsletter and receive exclusive <br /> offers on new
         ranges, sales, pop-up stores, and more.
       </h2>
       <div className="flex flex-col sm:flex-row justify-center items-center mt-8 gap-4">
@@ -226,17 +225,17 @@ export default function Home() {
 
 <div className="w-full max-w-[1370px] mx-auto h-auto lg:h-[603px] pr-4 flex flex-col lg:flex-row">
   {/* Left Section */}
-  <div className="h-auto lg:h-[603px] w-full lg:w-[50%] p-6">
-    <div className="relative gap-4 lg:gap-[41px]">
-      <h1 className="text-xl lg:text-2xl leading-8 lg:leading-10">
-        From a studio in London to a global brand with over 400 outlets
+  <div className="h-auto lg:h-[603px] sm:h-auto w-full lg:w-[50%] p-6">
+    <div className="relative gap-4 lg:gap-[41px] lg:w-full mg:w-auto sm:w-auto">
+      <h1 className="text-xl lg:text-2xl leading-8 lg:w-full mg:w-auto sm:w-auto lg:leading-10">
+        From a studio in London to a global brand <br />with over 400 outlets
       </h1>
-      <h2 className="mt-6 text-sm leading-6 space-y-4">
-        When we started Avion, the idea was simple: make high-quality furniture
-        affordable and available for the mass market.
-        <p>
-          Handmade, and lovingly crafted furniture and homeware is what we live,
-          breathe, and design. Our Chelsea boutique became the hotbed for the
+      <h2 className="mt-6 text-sm leading-6 space-y-4  lg:w-full mg:w-auto sm:w-auto">
+        When we started Avion, the idea was simple: make <br />
+        high-quality furniture affordable and available for the <br /> mass market.
+        <p className=" lg:w-full mg:w-auto text-sm sm:w-auto">
+          Handmade, and lovingly crafted furniture and <br /> homeware is what we live,
+          breathe, and design. Our Chelsea boutique <br /> became the hotbed for the
           London interior design community.
         </p>
       </h2>
