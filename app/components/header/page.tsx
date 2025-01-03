@@ -55,11 +55,7 @@ export default function Navbar() {
       All Products
     </Link>
   </li>
-  <li className="cursor-pointer hover:text-black">
-    <Link href="/components/product-listing" className="focus:outline-none focus:text-black">
-      Product Listing
-    </Link>
-  </li>
+ 
   <li className="cursor-pointer hover:text-black">
     <Link href="/components/shopping" className="focus:outline-none focus:text-black">
       Shopping

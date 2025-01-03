@@ -4,7 +4,7 @@ import { CiCircleCheck } from "react-icons/ci";
 import { CiCreditCard1 } from "react-icons/ci";
 import { PiFlowerTulipLight } from "react-icons/pi";
 import Navbar from "./components/header/page";
-
+import Link from "next/link";
 export default function Home() {
   return (
     <>
@@ -17,9 +17,9 @@ export default function Home() {
                 The furniture brand for the <br className="hidden lg:block" />{" "}
                 future, with timeless designs
               </h1>
-              <button className="h-[48px] lg:h-[56px] w-auto px-6 lg:px-8 bg-[#F9F9F926] text-white mt-8 lg:mt-12 whitespace-nowrap">
+              <Link href="./components/allProducts" className="h-[48px] lg:h-[56px] w-auto px-6 lg:px-8 bg-[#F9F9F926] text-white mt-8 lg:mt-12 whitespace-nowrap">
                 View Collection
-              </button>
+                </Link>
             </div>
             <div className="text-white mt-2 lg:mt-[250px]">
               A new era in eco-friendly furniture with Avelon, the French luxury
@@ -81,9 +81,8 @@ export default function Home() {
           </div>
         </div>
         <div className="w-full max-w-full mx-auto mt-12 p-4">
-        <h2 className="text-2xl font-bold mb-4 ml-2 pl-6">
-    New Ceramics
-  </h2>          <div className="flex flex-wrap">
+          <h2 className="text-2xl font-bold mb-4 ml-2 pl-6">New Ceramics</h2>{" "}
+          <div className="flex flex-wrap">
             {/* Product 1 */}
             <div className=" p-2 space-y-2">
               <Image
@@ -136,17 +135,19 @@ export default function Home() {
               <p>£335</p>
             </div>
           </div>
-          <div className="text-center mt-10">
-    <button className="px-6 py-2 bg-gray-400 text-white hover:bg-gray-600">
-      View Collection
-    </button>
-  </div>
-</div>
+          <div className="mt-6 flex justify-center">
+          <Link href="/components/allProducts">
+          <button className="w-[170px] h-[56px] flex items-center justify-center gap-[10px] bg-gray-300 text-black border hover:bg-gray-400">
+            View Collection
+            </button>
+            </Link>
         </div>
-        <div className="w-full mt-10">
-  {/* Popular Products Section */}
+        </div>
+      </div>
+      <div className="w-full mt-10">
+        {/* Popular Products Section */}
 
-  <div className="whitespace-nowrap w-full mt-10 ">
+        <div className="whitespace-nowrap w-full mt-10 ">
           <h2 className="text-2xl font-bold mb-4 ml-2 pl-6">
             Our popular products
           </h2>
@@ -189,78 +190,81 @@ export default function Home() {
               <p className="mt-2 font-medium">The Lamp</p>
               <p className="text-gray-600">£125</p>
             </div>
-  {/* Centered Button */}
-  <div className="text-center sm:ml-[30%]  lg:ml-[50%] sm:mt-auto md:mt-auto mt-20 lg:mt-20">
-    <button className="px-6 py-2 bg-gray-400 text-white hover:bg-gray-600">
-      View Collection
-    </button>
-  </div>
-</div>
+            {/* Centered Button */}
+            <div className="mt-6 flex justify-center">
+          <Link href="/components/allProducts">
+          <button className="w-[170px] h-[56px] flex items-center justify-center gap-[10px] bg-gray-300 text-black border hover:bg-gray-400">
+            View Collection
+            </button>
+            </Link>
+        </div>
+          </div>
 
-{/* Newsletter Section */}
-<div className="mt-10 border-2 bg-gray-300 p-6">
-  <div className="bg-white p-6 sm:p-8 lg:p-12">
-    <div className="text-center">
-      <h1 className="text-xl sm:text-2xl tracking-wide">
-        Join the club and get the benefits
-      </h1>
-      <h2 className="mt-4 text-sm sm:text-base md:w-auto sm:w-auto w-auto">
-        Sign up for our newsletter and receive exclusive <br /> offers on new
-        ranges, sales, pop-up stores, and more.
-      </h2>
-      <div className="flex flex-col sm:flex-row justify-center items-center mt-8 gap-4">
-        <input
-          type="text"
-          placeholder="Your email"
-          className="border-2 h-[50px] w-full sm:w-[60%] lg:w-[50%] p-3 focus:outline-none focus:ring-2 focus:ring-blue-500"
-        />
-        <button className="h-[50px] px-6 bg-black text-white font-medium hover:bg-gray-800">
-          Sign Up
-        </button>
+          {/* Newsletter Section */}
+          <div className="mt-10 border-2 bg-gray-300 p-6">
+            <div className="bg-white p-6 sm:p-8 lg:p-12">
+              <div className="text-center">
+                <h1 className="text-xl sm:text-2xl tracking-wide">
+                  Join the club and get the benefits
+                </h1>
+                <h2 className="mt-4 text-sm sm:text-base md:w-auto sm:w-auto w-auto">
+                  Sign up for our newsletter and receive exclusive <br /> offers
+                  on new ranges, sales, pop-up stores, and more.
+                </h2>
+                <div className="flex flex-col sm:flex-row justify-center items-center mt-8 gap-4">
+                  <input
+                    type="text"
+                    placeholder="Your email"
+                    className="border-2 h-[50px] w-full sm:w-[60%] lg:w-[50%] p-3 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  />
+                  <button className="h-[50px] px-6 bg-black text-white font-medium hover:bg-gray-800">
+                    Sign Up
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="w-full max-w-[1370px] mx-auto h-auto lg:h-[603px] pr-4 flex flex-col lg:flex-row">
+            {/* Left Section */}
+            <div className="h-auto lg:h-[603px] sm:h-auto w-full lg:w-[50%] p-6">
+              <div className="relative gap-4 lg:gap-[41px] lg:w-full mg:w-auto sm:w-auto">
+                <h1 className="text-xl lg:text-2xl leading-8 lg:w-full mg:w-auto sm:w-auto lg:leading-10">
+                  From a studio in London to a global brand <br />
+                  with over 400 outlets
+                </h1>
+                <h2 className="mt-6 text-sm leading-6 space-y-4  lg:w-full mg:w-auto sm:w-auto">
+                  When we started Avion, the idea was simple: make <br />
+                  high-quality furniture affordable and available for the <br />{" "}
+                  mass market.
+                  <p className=" lg:w-full mg:w-auto text-sm sm:w-auto">
+                    Handmade, and lovingly crafted furniture and <br /> homeware
+                    is what we live, breathe, and design. Our Chelsea boutique{" "}
+                    <br /> became the hotbed for the London interior design
+                    community.
+                  </p>
+                </h2>
+              </div>
+              <div className="mt-6 lg:mt-[300px]">
+                <button className="border px-4 py-2 text-sm hover:bg-gray-200">
+                  Get In Touch
+                </button>
+              </div>
+            </div>
+
+            {/* Right Section */}
+            <div className="h-auto lg:h-[603px] w-full lg:w-[50%]">
+              <Image
+                src="/Image (1).png"
+                width={720}
+                height={603}
+                alt="Studio Image"
+                className="w-full h-full object-cover"
+              />
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-</div>
-
-
-<div className="w-full max-w-[1370px] mx-auto h-auto lg:h-[603px] pr-4 flex flex-col lg:flex-row">
-  {/* Left Section */}
-  <div className="h-auto lg:h-[603px] sm:h-auto w-full lg:w-[50%] p-6">
-    <div className="relative gap-4 lg:gap-[41px] lg:w-full mg:w-auto sm:w-auto">
-      <h1 className="text-xl lg:text-2xl leading-8 lg:w-full mg:w-auto sm:w-auto lg:leading-10">
-        From a studio in London to a global brand <br />with over 400 outlets
-      </h1>
-      <h2 className="mt-6 text-sm leading-6 space-y-4  lg:w-full mg:w-auto sm:w-auto">
-        When we started Avion, the idea was simple: make <br />
-        high-quality furniture affordable and available for the <br /> mass market.
-        <p className=" lg:w-full mg:w-auto text-sm sm:w-auto">
-          Handmade, and lovingly crafted furniture and <br /> homeware is what we live,
-          breathe, and design. Our Chelsea boutique <br /> became the hotbed for the
-          London interior design community.
-        </p>
-      </h2>
-    </div>
-    <div className="mt-6 lg:mt-[300px]">
-      <button className="border px-4 py-2 text-sm hover:bg-gray-200">
-        Get In Touch
-      </button>
-    </div>
-  </div>
-
-  {/* Right Section */}
-  <div className="h-auto lg:h-[603px] w-full lg:w-[50%]">
-    <Image
-      src="/Image (1).png"
-      width={720}
-      height={603}
-      alt="Studio Image"
-      className="w-full h-full object-cover"
-    />
-  </div>
-</div>
-
-      </div>
-    </div>
     </>
   );
 }
